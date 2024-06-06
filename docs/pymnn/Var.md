@@ -662,6 +662,7 @@ Var中指定轴的数据是否至少有一个数据不为0，相当于: `for x i
 ```python
 import MNN.expr as expr
 import MNN.numpy as np
+import _mnncengine._expr as F
 
 # 创建Var变量
 # 通过expr.const创建变量，参数分别为：数据，形状，数据排布，数据类型
